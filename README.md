@@ -43,10 +43,10 @@ Before creating detection rules or investigating alerts, I first needed a way to
                           ▼
                  ┌──────────────────┐
                  │   Windows 10     │
-                 │ (Monitored PC)   │
+                 │     (Victim)     │
                  └────────┬─────────┘
                           │
-      Elastic Agent collects Windows logs
+         Elastic Agent collects Windows logs
                           │
                           ▼
                  ┌──────────────────┐
@@ -54,7 +54,7 @@ Before creating detection rules or investigating alerts, I first needed a way to
                  │ (Ubuntu Server)  │
                  └────────┬─────────┘
                           │
-          Sends logs to the ELK Stack
+             Sends logs to the ELK Stack
                           │
                           ▼
                  ┌──────────────────┐
@@ -68,12 +68,12 @@ Before creating detection rules or investigating alerts, I first needed a way to
                  │ Search & Analyze │
                  └────────┬─────────┘
                           │
-          Detection Rules Monitor Logs
+             Detection Rules Monitor Logs
                           │
                           ▼
                  ┌──────────────────┐
                  │ Security Alerts  │
-                 │  Investigation   │
+                 │ (Investigation)  │
                  └──────────────────┘
 ```
 
@@ -102,8 +102,6 @@ The diagram below shows the complete workflow I followed while building and test
 │ • Allocated CPU, RAM, Storage and configured virtual networking             │
 └─────────────────────────────────────────────────────────────────────────────┘
                                       │
-<img width="1261" height="690" alt="image" src="https://github.com/user-attachments/assets/bf8dfda3-678b-47e1-930d-407e3a4de458" />
-
                                       ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ 2. Deploy the ELK Stack                                                     │
@@ -212,7 +210,6 @@ After completing the lab, I was able to successfully build a functional SOC envi
 - Investigated generated alerts and verified detection accuracy.
 - Documented the complete setup and troubleshooting process.
 
-> Screenshots of the dashboard, detections, and attack simulations are included throughout this repository.
 
 ## ⚠️ Challenges & Troubleshooting
 
