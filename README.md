@@ -102,6 +102,8 @@ The diagram below shows the complete workflow I followed while building and test
 │ • Allocated CPU, RAM, Storage and configured virtual networking             │
 └─────────────────────────────────────────────────────────────────────────────┘
                                       │
+<img width="1261" height="690" alt="image" src="https://github.com/user-attachments/assets/bf8dfda3-678b-47e1-930d-407e3a4de458" />
+
                                       ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ 2. Deploy the ELK Stack                                                     │
@@ -113,7 +115,7 @@ The diagram below shows the complete workflow I followed while building and test
 │ • Installed Kibana                                                          │
 │ • Verified all ELK services were running                                    │
 └─────────────────────────────────────────────────────────────────────────────┘
-                                      │
+                                      |
                                       ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ 3. Configure Fleet Server                                                   │
