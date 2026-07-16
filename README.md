@@ -50,16 +50,16 @@ Before creating detection rules or investigating alerts, I first needed a way to
                           │
                           ▼
                  ┌──────────────────┐
-                 │  Fleet Server     │
-                 │ (Ubuntu Server)   │
+                 │  Fleet Server    │
+                 │ (Ubuntu Server)  │
                  └────────┬─────────┘
                           │
           Sends logs to the ELK Stack
                           │
                           ▼
                  ┌──────────────────┐
-                 │ Elasticsearch     │
-                 │  Stores the Logs  │
+                 │ Elasticsearch    │
+                 │  Stores the Logs │
                  └────────┬─────────┘
                           │
                           ▼
