@@ -119,6 +119,10 @@ The diagram below shows the complete workflow I followed while building and test
 └─────────────────────────────────────────────────────────────────────────────┘
                                       |
                                       ▼
+```
+![All ELK Services](assets/project-workflow/02-Elk-stack.png)
+
+```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ 3. Configure Fleet Server                                                   │
 │                                                                             │
