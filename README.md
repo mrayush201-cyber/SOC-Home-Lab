@@ -104,7 +104,7 @@ The diagram below shows the complete workflow I followed while building and test
                                       │
                                       ▼
 ```
-![Virtual Lab Setup](assets/project-workflow/01-virtual-lab.png)
+![Virtual Lab Setup](assets/project-workflow/01-vmware-lab.png)
 
 ```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
